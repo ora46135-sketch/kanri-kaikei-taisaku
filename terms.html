@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>比較表と公式 | 管理会計 中間試験の対策</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Zen+Maru+Gothic:wght@500;700;900&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#2B2A3A}a:hover{color:#4318FF}
+.pg{font-family:'Zen Kaku Gothic New','Noto Sans JP',system-ui,sans-serif;color:#2B2A3A;background:#FFFFFF;-webkit-font-smoothing:antialiased;font-feature-settings:"palt"}
+.wrap{max-width:1120px;margin:0 auto;padding:0 40px}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:28px 0 20px;border-bottom:1px solid #E6E3EF;font-family:Inter,sans-serif;font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:500}
+.mincho{font-family:'Zen Maru Gothic',sans-serif}
+.num{font-family:Inter,sans-serif;font-variant-numeric:tabular-nums}
+.eyebrow{margin:0;font-family:Inter,sans-serif;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#6B6B76;font-weight:500}
+.h2{margin:0;font-family:'Zen Maru Gothic',sans-serif;font-size:30px;font-weight:700;letter-spacing:.03em;line-height:1.45}
+.lead{margin:0;font-size:15px;line-height:2;color:#3A3A44}
+.sec{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:56px;padding:80px 0;border-top:1px solid #E4E3DE}
+.side{display:flex;flex-direction:column;gap:14px}
+.src{margin:0;font-size:12px;line-height:1.8;color:#6B6B76}
+.defs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px}
+.def{padding:24px 0;border-top:1px solid #E4E3DE;display:flex;flex-direction:column;gap:10px}
+.tb{overflow-x:auto}
+.tb table{border-collapse:collapse;width:100%;min-width:620px;font-size:15px;line-height:1.85}
+.tb th{font-family:Inter,'Zen Kaku Gothic New',sans-serif;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#6B6B76;font-weight:500;text-align:left;padding:0 24px 14px 0;border-bottom:1px solid #E6E3EF}
+.tb td{padding:20px 24px 20px 0;border-bottom:1px solid #E4E3DE;vertical-align:top;color:#2A2A33}
+.tb td:first-child{font-family:'Zen Maru Gothic',sans-serif;font-weight:700;font-size:16px;color:#2B2A3A;white-space:nowrap}
+.tb td.f{font-family:Inter,'Zen Kaku Gothic New',sans-serif;font-size:15px;color:#2B2A3A;font-weight:500}
+.rc{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.card{border:1px solid #ECE9F5;border-radius:24px;padding:26px 24px;display:flex;flex-direction:column;gap:20px;background:#FFFFFF}
+.card dl{margin:0;display:flex;flex-direction:column;gap:14px}
+.card dt{font-family:Inter,sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#6B6B76;margin-bottom:4px}
+.card dd{margin:0;font-size:14px;line-height:1.75;color:#2A2A33}
+.panel{background:#F5F3FF;border-radius:18px;padding:28px 32px;display:flex;flex-direction:column;gap:14px}
+.pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.next{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:40px 0;border-top:1px solid #E6E3EF;text-decoration:none}
+@media (max-width: 860px){
+.wrap{padding:0 20px}
+.sec{grid-template-columns:minmax(0,1fr);gap:28px;padding:56px 0}
+.defs{grid-template-columns:minmax(0,1fr)}
+}
+</style>
+
+.rv{display:contents}.rv[hidden]{display:none}
+html{-webkit-text-size-adjust:100%}
+
+</head>
+<body>
+<div class="pg" style="--a: #4318FF">
+<div class="wrap">
+
+<div class="bar"><a href="index.html" style="color:inherit;text-decoration:none">Management Accounting</a><span class="num">02 / 04</span></div>
+
+<header style="padding: 104px 0 88px; display: flex; flex-direction: column; gap: 28px">
+<p class="eyebrow">Concepts &amp; Formulas</p>
+<h1 class="mincho" style="margin: 0; font-size: 72px; line-height: 1.22; font-weight: 700; letter-spacing: 0.02em">比較表と公式</h1>
+<p class="lead" style="max-width: 620px; font-size: 17px">「違いを説明せよ」と聞かれたら、表の行をそのまま文章にすればよい。</p>
+</header>
+
+<section class="sec">
+<div class="side">
+<p class="eyebrow">Definitions</p>
+<h2 class="h2">必ず書ける定義</h2>
+<p class="lead">印のある3つは、ほぼ確実に使う。</p>
+</div>
+<div class="defs">
+<div class="def"><p class="num" style="margin: 0; font-size: 11px; letter-spacing: 0.18em; color: var(--a); font-weight: 600">KEY</p><p class="mincho" style="margin: 0; font-size: 20px; font-weight: 700">マネジメントコントロール</p><p class="lead">組織の戦略を実行するために、上位のマネジャーが下位のマネジャーに影響を与えるプロセス</p></div>
+<div class="def"><p class="num" style="margin: 0; font-size: 11px; letter-spacing: 0.18em; color: var(--a); font-weight: 600">KEY</p><p class="mincho" style="margin: 0; font-size: 20px; font-weight: 700">責任センター</p><p class="lead">会計数値（売上・費用・利益・投資など）がマネジャーの責任変数に含まれている組織単位</p></div>
+<div class="def"><p class="num" style="margin: 0; font-size: 11px; letter-spacing: 0.18em; color: var(--a); font-weight: 600">KEY</p><p class="mincho" style="margin: 0; font-size: 20px; font-weight: 700">戦略（伊丹, 1986）</p><p class="lead">組織の活動の基本的方向を環境とのかかわりで示した、基本方針</p></div>
+<div class="def"><p class="eyebrow" style="font-size: 11px">Lecture 01</p><p class="mincho" style="margin: 0; font-size: 20px; font-weight: 700">Goal congruence（目標一致性）</p><p class="lead">マネジャーと組織のメンバーが、組織の目標達成に向けて正しい行動に動機づけられているかどうか</p></div>
+<div class="def"><p class="eyebrow" style="font-size: 11px">Lecture 01</p><p class="mincho" style="margin: 0; font-size: 20px; font-weight: 700">Cost-benefit balance</p><p class="lead">見込まれる便益が、予想されるコストを上回っているかどうか</p></div>
+<div class="def"><p class="eyebrow" style="font-size: 11px">Lecture 02</p><p class="mincho" style="margin: 0; font-size: 20px; font-weight: 700">コア・コンピタンス</p><p class="lead">他社に模倣困難な企業の能力</p></div>
+<div class="def"><p class="eyebrow" style="font-size: 11px">Lecture 04</p><p class="mincho" style="margin: 0; font-size: 20px; font-weight: 700">利益（伊丹・青木, 2016）</p><p class="lead">インプットの価値を超えるアウトプットの価値を作り出せているか、という技術的変換の社会的な効率性の指標</p></div>
+<div class="def"><p class="eyebrow" style="font-size: 11px">Lecture 04</p><p class="mincho" style="margin: 0; font-size: 20px; font-weight: 700">標準原価</p><p class="lead">予測される状況下で製品・サービスを生み出す際に発生するはずのコスト</p></div>
+</div>
+</section>
+
+<section class="sec">
+<div class="side">
+<p class="eyebrow">Table 01</p>
+<h2 class="h2">財務会計と<br>管理会計</h2>
+<p class="src">出所：第01回スライドp.9</p>
+</div>
+<div class="tb">
+<table>
+<thead><tr><th>項目</th><th>財務会計</th><th>管理会計</th></tr></thead>
+<tbody>
+<tr><td>情報利用者</td><td>企業外部の利害関係者</td><td>企業内部の関係者（特にマネジャー）</td></tr>
+<tr><td>利用目的</td><td>財政状態と経営成績の報告</td><td>現状把握と意思決定、動機づけ</td></tr>
+<tr><td>作成の制約</td><td>一般に認められた会計原則</td><td>なし</td></tr>
+<tr><td>時間志向</td><td>過去志向</td><td>未来志向</td></tr>
+<tr><td>期間志向</td><td>四半期ないし1年</td><td>柔軟</td></tr>
+<tr><td>報告書</td><td>要約（主に企業全体）</td><td>詳細（部門別・製品別など）</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="sec">
+<div class="side">
+<p class="eyebrow">Table 02 — Most important</p>
+<h2 class="h2">責任センターの<br>4種類</h2>
+<p class="lead">責任変数（通知表に載る数字）の違いで分かれる。</p>
+<p class="src">出所：第04回スライドp.14〜、第05回スライドp.13–14</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 20px">
+<div class="rc">
+<div class="card">
+<div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow" style="font-size: 10px">Revenue Center</p><p class="mincho" style="margin: 0; font-size: 22px; font-weight: 700">収益センター</p></div>
+<dl>
+<div><dt>責任変数</dt><dd>売上（アウトプット）</dd></div>
+<div><dt>典型例</dt><dd>営業部門</dd></div>
+<div><dt>評価</dt><dd>売上を目標と比べる</dd></div>
+<div><dt>課題</dt><dd>コストをコントロールする責任をほぼ負わない</dd></div>
+</dl>
+</div>
+<div class="card">
+<div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow" style="font-size: 10px">Cost Center</p><p class="mincho" style="margin: 0; font-size: 22px; font-weight: 700">コストセンター</p></div>
+<dl>
+<div><dt>責任変数</dt><dd>費用（インプット）</dd></div>
+<div><dt>典型例</dt><dd>生産部門、研究開発部門</dd></div>
+<div><dt>評価</dt><dd>工学的は標準原価と比較、裁量的は予算との差異</dd></div>
+<div><dt>課題</dt><dd>アウトプットを気にしなくなる（品質を犠牲にしたコスト削減）</dd></div>
+</dl>
+</div>
+<div class="card">
+<div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow" style="font-size: 10px">Profit Center</p><p class="mincho" style="margin: 0; font-size: 22px; font-weight: 700">プロフィット<br>センター</p></div>
+<dl>
+<div><dt>責任変数</dt><dd>利益（収益－費用）</dd></div>
+<div><dt>典型例</dt><dd>事業部</dd></div>
+<div><dt>評価</dt><dd>当期の利益を目標値・前期と比べる</dd></div>
+<div><dt>課題</dt><dd>①近視眼的行動　②振替価格をめぐる対立</dd></div>
+</dl>
+</div>
+<div class="card" style="background: #EEEAFF; border-color: #EEEAFF">
+<div style="display: flex; flex-direction: column; gap: 8px"><p class="eyebrow" style="font-size: 10px; color: #4A3FA8">Investment Center</p><p class="mincho" style="margin: 0; font-size: 22px; font-weight: 700">投資センター</p></div>
+<dl>
+<div><dt style="color: #4A3FA8">責任変数</dt><dd style="color: #2A2A33">利益と投下資本の両方</dd></div>
+<div><dt style="color: #4A3FA8">典型例</dt><dd style="color: #2A2A33">子会社、カンパニー</dd></div>
+<div><dt style="color: #4A3FA8">評価</dt><dd style="color: #2A2A33">投下資本利益率の実績と目標を比べる</dd></div>
+<div><dt style="color: #4A3FA8">課題</dt><dd style="color: #2A2A33">分母の投下資本を小さく見せる行動</dd></div>
+</dl>
+</div>
+</div>
+<div class="panel">
+<p class="eyebrow" style="color: var(--a)">設定するときの注意 — 記述で必ず添える</p>
+<p style="margin: 0; font-size: 16px; line-height: 2">①組織と責任変数の組み合わせは自由で、唯一絶対はない。②マネジャーがある程度影響を及ぼせる（管理可能な）項目を責任変数に含める。管理できない数字で評価すると、モチベーションや行動に悪影響が出るためである。</p>
+</div>
+</div>
+</section>
+
+<section class="sec">
+<div class="side">
+<p class="eyebrow">Table 03</p>
+<h2 class="h2">工学的と裁量的の<br>コストセンター</h2>
+<p class="src">出所：第04回スライドp.18–19</p>
+</div>
+<div class="tb">
+<table>
+<thead><tr><th>区分</th><th>どんなコストか</th><th>典型例</th><th>評価方法</th></tr></thead>
+<tbody>
+<tr><td>工学的</td><td>アウトプットに必要な金額を、それなりの信頼性で推定できる（製造原価など）</td><td>生産部門</td><td>標準原価差異＝標準原価－実際原価。プラスなら原価を低く抑えられた</td></tr>
+<tr><td>裁量的</td><td>必要な金額を工学的に見積もるのが難しい</td><td>研究開発部門、本社間接部門</td><td>実際の費用と予算の差異。予算内でも効率的とは限らない</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="sec">
+<div class="side">
+<p class="eyebrow">Table 04</p>
+<h2 class="h2">メリットと<br>デメリット</h2>
+<p class="src">出所：第04回・第05回スライド</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 24px">
+<div class="tb">
+<table>
+<thead><tr><th>区分</th><th>メリット</th><th>デメリット</th></tr></thead>
+<tbody>
+<tr><td>プロフィット<br>センター</td><td>①インプットとアウトプットのバランスを意識し、利益への意識が上がる　②事業部長が経営全般を見られるマネジャーに育つ</td><td>①近視眼的行動：当期の利益のために研究開発・研修・メンテナンス費を削る　②振替価格をめぐる部門間の対立</td></tr>
+<tr><td>投資センター</td><td>投下資本にも注意を払い、経営陣と同じように資本効率を意識するマネジャーが育つ</td><td>基本はプロフィットセンターと同じ。加えて投下資本を小さく見せる行動</td></tr>
+</tbody>
+</table>
+</div>
+<div class="pair">
+<div class="panel">
+<p class="eyebrow">Remedy</p>
+<p class="mincho" style="margin: 0; font-size: 20px; font-weight: 700">BSC（Balanced Scorecard）</p>
+<p class="lead">財務・顧客・社内ビジネスプロセス・学習と成長の4視点で評価する。財務以外も見ることで、近視眼的行動を抑える。</p>
+</div>
+<div class="panel">
+<p class="eyebrow">Transfer Price</p>
+<p class="mincho" style="margin: 0; font-size: 20px; font-weight: 700">振替価格</p>
+<p class="lead">事業部間の内部取引の価格。目的は業績評価と購入先などの意思決定。結論は「市価があれば市価が望ましい」。</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="sec">
+<div class="side">
+<p class="eyebrow">Table 05</p>
+<h2 class="h2">企業戦略の<br>3類型</h2>
+<p class="lead">どの市場で戦うか。どう勝つか（事業戦略）は、外部をFive forces、内部をバリューチェーンで見る。</p>
+<p class="src">出所：第02回スライドp.10</p>
+</div>
+<div class="tb">
+<table>
+<thead><tr><th>分類</th><th>特徴</th><th>例</th></tr></thead>
+<tbody>
+<tr><td>単一市場型</td><td>単一の市場だけで競争している</td><td>マクドナルド</td></tr>
+<tr><td>関連多角型</td><td>事業間で中核となるコア・コンピタンスをシェアする</td><td>花王</td></tr>
+<tr><td>非関連多角型</td><td>異なる市場で各事業が自立して経営される</td><td>ソフトバンク</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="sec">
+<div class="side">
+<p class="eyebrow">Table 06</p>
+<h2 class="h2">事業部の利益の<br>段階と使い道</h2>
+<p class="lead">共通固定費は評価から除くのが鉄則。配賦するなら売上高・投下資本・社員数などの基準を使う。</p>
+<p class="src">出所：第05回スライドp.19–20</p>
+</div>
+<div class="tb">
+<table>
+<thead><tr><th>段階</th><th>計算</th><th>何に使うか</th></tr></thead>
+<tbody>
+<tr><td>限界利益</td><td>売上高－変動費</td><td>CVP分析・損益分岐点</td></tr>
+<tr><td>管理可能利益</td><td>限界利益－管理可能個別固定費</td><td>マネジャーの業績評価</td></tr>
+<tr><td>営業利益</td><td>管理可能利益－管理不能個別固定費</td><td>事業部の事業性の評価</td></tr>
+<tr><td>配賦後の利益</td><td>営業利益－共通固定費（及び租税）の配賦額</td><td>全社の業績を事業部と本社に意識させる</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="sec">
+<div class="side">
+<p class="eyebrow">Table 07</p>
+<h2 class="h2">公式一覧</h2>
+<p class="src">出所：第02・04・05回スライド、用語集。ROIC・ROE・EBITDAは一般的な定義で、授業スライドでの式は確認できなかった。</p>
+</div>
+<div class="tb">
+<table>
+<thead><tr><th>指標</th><th>式</th><th>メモ</th></tr></thead>
+<tbody>
+<tr><td>ROI</td><td class="f">利益 ÷ 投資額</td><td>ROE・ROICはこの仲間</td></tr>
+<tr><td>投下資本利益率</td><td class="f">利益 ÷ 投下資本</td><td>投資センターの評価指標</td></tr>
+<tr><td>ROIC</td><td class="f">税引後営業利益 ÷ 投下資本</td><td>一般的な定義</td></tr>
+<tr><td>ROE</td><td class="f">当期純利益 ÷ 自己資本</td><td>株主のお金1円あたりの儲け</td></tr>
+<tr><td>投下資本</td><td class="f">運転資本 ＋ 固定資産</td><td>現金は本社管理が多いので除く</td></tr>
+<tr><td>運転資本</td><td class="f">棚卸資産 ＋ 売上債権 － 仕入債務</td><td>本社が仕入債務を管理するなら除く</td></tr>
+<tr><td>WACC</td><td class="f">（負債×負債コスト＋自己資本×自己資本コスト）÷ 総額</td><td>加重平均資本コスト</td></tr>
+<tr><td>負債のコスト</td><td class="f">金利 ×（1 － 税率）</td><td>利息は税金を減らすので実質は安い</td></tr>
+<tr><td>自己資本のコスト</td><td class="f">rf ＋（市場の期待リターン － rf）× β</td><td>rf＝risk free rate</td></tr>
+<tr><td>限界利益</td><td class="f">販売価格 － 変動費単価</td><td>貢献利益とも言う</td></tr>
+<tr><td>損益分岐点</td><td class="f">固定費 ÷ 限界利益単価</td><td>利益がちょうど0になる販売量</td></tr>
+<tr><td>目標販売量</td><td class="f">（固定費 ＋ 目標利益）÷ 限界利益単価</td><td>損益分岐点の応用</td></tr>
+<tr><td>EBITDA</td><td class="f">営業利益 ＋ 減価償却費</td><td>一般的な定義。会社により違う</td></tr>
+<tr><td>EBITDAマージン</td><td class="f">EBITDA ÷ 売上高</td><td>カルビー国内コア事業の指標</td></tr>
+<tr><td>スプレッド</td><td class="f">ROIC － WACC</td><td>プラスなら資本コスト以上に稼いでいる</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<a class="next" href="calc.html">
+<span class="eyebrow">Next — 03</span>
+<span class="mincho" style="font-size: 26px; font-weight: 700; display: inline-flex; align-items: center; gap: 16px">計算問題<svg width="40" height="12" viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><path d="M0 6h38M33 1l5 5-5 5"></path></svg></span>
+</a>
+
+</div>
+</div>
+
+</body>
+</html>

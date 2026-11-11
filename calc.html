@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>計算問題 | 管理会計 中間試験の対策</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;family=Zen+Maru+Gothic:wght@500;700;900&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#2B2A3A}a:hover{color:#4318FF}
+.pg{font-family:'Zen Kaku Gothic New','Noto Sans JP',system-ui,sans-serif;color:#2B2A3A;background:#FFFFFF;-webkit-font-smoothing:antialiased;font-feature-settings:"palt"}
+.wrap{max-width:1120px;margin:0 auto;padding:0 40px}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:28px 0 20px;border-bottom:1px solid #E6E3EF;font-family:Inter,sans-serif;font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:500}
+.mincho{font-family:'Zen Maru Gothic',sans-serif}
+.num{font-family:Inter,sans-serif;font-variant-numeric:tabular-nums}
+.eyebrow{margin:0;font-family:Inter,sans-serif;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#6B6B76;font-weight:500}
+.h2{margin:0;font-family:'Zen Maru Gothic',sans-serif;font-size:30px;font-weight:700;letter-spacing:.03em;line-height:1.45}
+.lead{margin:0;font-size:15px;line-height:2;color:#3A3A44}
+.sec{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:56px;padding:80px 0;border-top:1px solid #E4E3DE}
+.side{display:flex;flex-direction:column;gap:14px}
+.ex{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.excard{border:1px solid #ECE9F5;border-radius:24px;padding:28px;display:flex;flex-direction:column;gap:16px}
+.code{margin:0;background:#F5F3FF;color:#2B2A3A;border-radius:18px;padding:22px 26px;font-family:'JetBrains Mono',ui-monospace,monospace;font-size:13.5px;line-height:2;white-space:pre;overflow-x:auto}
+.code b{color:#3420C8;font-weight:500}
+.note{margin:0;font-size:13px;line-height:1.8;color:#6B6B76}
+.q{display:grid;grid-template-columns:120px minmax(0,1fr);gap:32px;padding:44px 0;border-top:1px solid #E4E3DE}
+.q:first-of-type{border-top:1px solid #E6E3EF}
+.btn{display:inline-flex;align-items:center;gap:12px;min-height:44px;padding:0 22px;border-radius:999px;border:none;background:#EEEAFF;color:#3420C8;font-family:inherit;font-size:14px;font-weight:700;letter-spacing:.04em;cursor:pointer;transition:background .2s ease,color .2s ease}
+.btn:hover{background:var(--a);color:#FFFFFF}
+.btn.on{background:var(--a);color:#FFFFFF}
+.next{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:40px 0;border-top:1px solid #E6E3EF;text-decoration:none}
+@media (max-width: 860px){
+.wrap{padding:0 20px}
+.sec{grid-template-columns:minmax(0,1fr);gap:28px;padding:56px 0}
+.ex{grid-template-columns:minmax(0,1fr)}
+.q{grid-template-columns:minmax(0,1fr);gap:16px}
+}
+</style>
+
+.rv{display:contents}.rv[hidden]{display:none}
+html{-webkit-text-size-adjust:100%}
+
+</head>
+<body>
+<div class="pg" style="--a: #4318FF">
+<div class="wrap">
+
+<div class="bar"><a href="index.html" style="color:inherit;text-decoration:none">Management Accounting</a><span class="num">03 / 04</span></div>
+
+<header style="padding: 104px 0 88px; display: flex; flex-direction: column; gap: 28px">
+<p class="eyebrow">Calculation</p>
+<h1 class="mincho" style="margin: 0; font-size: 72px; line-height: 1.22; font-weight: 700; letter-spacing: 0.02em">計算問題</h1>
+<p class="lead" style="max-width: 640px; font-size: 17px">前半は授業スライドの例題、後半は数字を変えた練習問題。練習問題は紙に解いてから答えを開く。</p>
+</header>
+
+<section class="sec">
+<div class="side">
+<p class="eyebrow">Worked Examples</p>
+<h2 class="h2">授業の例題</h2>
+<p class="lead">解き方の流れだけ確認する。</p>
+</div>
+<div class="ex">
+
+<div class="excard">
+<p class="eyebrow">Lecture 04 · p.11–12</p>
+<p class="mincho" style="margin: 0; font-size: 21px; font-weight: 700">CVP分析と損益分岐点</p>
+<p class="lead">単価60円、変動費10円/個、固定費100円、4個販売</p>
+<pre class="code">売上高    60 × 4 = 240
+変動費    10 × 4 =  40
+限界利益  50 × 4 = 200
+固定費             100
+<b>営業利益           100</b>
+
+<b>損益分岐点 = 100 ÷ 50 = 2個</b></pre>
+<p class="note">条件欄の固定費200円は、表とグラフ（100円）と合わない。誤記の可能性がある。</p>
+</div>
+
+<div class="excard">
+<p class="eyebrow">Lecture 04 · p.13</p>
+<p class="mincho" style="margin: 0; font-size: 21px; font-weight: 700">投下資本利益率の比較</p>
+<pre class="code">A社  10億円 ÷ 100億円 = 10%
+<b>B社  10億円 ÷  50億円 = 20%</b></pre>
+<p class="lead">利益は同じでも、少ない元手で稼いだB社の方が効率的である。</p>
+</div>
+
+<div class="excard">
+<p class="eyebrow">Lecture 05 · p.17</p>
+<p class="mincho" style="margin: 0; font-size: 21px; font-weight: 700">WACC</p>
+<p class="lead">負債100、自己資本50、利子率2%、自己資本コスト10%、税率50%</p>
+<pre class="code">負債     100 × 2% × (1 − 0.5) = 1
+自己資本  50 × 10%            = 5
+<b>WACC = (1 + 5) ÷ 150 = 4%</b></pre>
+</div>
+
+<div class="excard">
+<p class="eyebrow">Lecture 05 · p.20</p>
+<p class="mincho" style="margin: 0; font-size: 21px; font-weight: 700">事業部の損益（A事業部）</p>
+<pre class="code">売上高               480
+変動費             − 240
+限界利益             240
+管理可能個別固定費  −  96
+<b>管理可能利益         144</b>  マネジャー評価
+管理不能個別固定費  −  48
+<b>営業利益              96</b>  事業の評価
+共通固定費等の配賦  −  66
+税引後営業利益        30</pre>
+</div>
+
+</div>
+</section>
+
+<section class="sec">
+<div class="side">
+<p class="eyebrow">Practice</p>
+<h2 class="h2">練習問題</h2>
+<p class="lead">答えを見ずに解いてから開く。</p>
+<div><button class="btn" type="button" id="all"><span class="lb">すべての答えを開く</span></button></div>
+</div>
+<div style="display: flex; flex-direction: column">
+
+<div class="q">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<p class="num" style="margin: 0; font-size: 48px; font-weight: 300; line-height: 1">Q1</p>
+<p class="eyebrow" style="font-size: 11px">CVP</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 17px; line-height: 2">ある製品の販売価格は80円/個、変動費は30円/個、固定費は500円である。(1) 限界利益単価、(2) 損益分岐点の販売量、(3) 営業利益300円を出すのに必要な販売量、(4) 12個売ったときの営業利益を求めよ。</p>
+<div><button class="btn" type="button" data-t="p1" aria-expanded="false"><span class="lb">答えを見る</span><span class="num sg" style="font-size: 16px; font-weight: 300">+</span></button></div>
+<div class="rv" data-a="p1" hidden>
+<pre class="code">(1) 80 − 30         = <b>50円</b>
+(2) 500 ÷ 50         = <b>10個</b>
+(3) (500 + 300) ÷ 50 = <b>16個</b>
+(4) 50 × 12 − 500    = <b>100円</b></pre>
+<p class="note">1個売るごとに50円が固定費の穴埋めに回る。500円を埋めるのに10個、その先は1個ごとに50円ずつ利益になる。</p>
+</div>
+</div>
+</div>
+
+<div class="q">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<p class="num" style="margin: 0; font-size: 48px; font-weight: 300; line-height: 1">Q2</p>
+<p class="eyebrow" style="font-size: 11px">Invested Capital</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 17px; line-height: 2">事業部Xは利益12億円、投下資本80億円である。事業部Yは利益20億円で、棚卸資産30億円、売上債権40億円、仕入債務20億円、固定資産150億円、現金25億円である。(1) Yの投下資本、(2) X・Yの投下資本利益率を求め、(3) どちらが効率的か答えよ。現金は本社が管理している。</p>
+<div><button class="btn" type="button" data-t="p2" aria-expanded="false"><span class="lb">答えを見る</span><span class="num sg" style="font-size: 16px; font-weight: 300">+</span></button></div>
+<div class="rv" data-a="p2" hidden>
+<pre class="code">(1) 運転資本 = 30 + 40 − 20 = 50
+    投下資本 = 50 + 150     = <b>200億円</b>  現金は除く
+(2) X  12 ÷  80 = <b>15%</b>
+    Y  20 ÷ 200 = <b>10%</b>
+(3) <b>Xの方が効率的</b></pre>
+<p class="note">利益の額はYが大きいが、元手1円あたりの儲けはXが上。現金を足すと225億円で8.9%になってしまうので注意。</p>
+</div>
+</div>
+</div>
+
+<div class="q">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<p class="num" style="margin: 0; font-size: 48px; font-weight: 300; line-height: 1">Q3</p>
+<p class="eyebrow" style="font-size: 11px">WACC</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 17px; line-height: 2">負債200、自己資本300、負債の金利3%、税率30%である。risk free rateは1%、市場ポートフォリオの期待リターンは6%、β係数は1.4である。(1) 自己資本のコスト、(2) 負債のコスト、(3) WACCを求めよ。(4) ROICが7%のとき、ROIC－WACCスプレッドはいくらか。</p>
+<div><button class="btn" type="button" data-t="p3" aria-expanded="false"><span class="lb">答えを見る</span><span class="num sg" style="font-size: 16px; font-weight: 300">+</span></button></div>
+<div class="rv" data-a="p3" hidden>
+<pre class="code">(1) 1% + (6% − 1%) × 1.4 = <b>8%</b>
+(2) 3% × (1 − 0.3)        = <b>2.1%</b>
+(3) (200 × 2.1% + 300 × 8%) ÷ 500
+    = (4.2 + 24) ÷ 500     = <b>5.64%</b>
+(4) 7% − 5.64%            = <b>1.36ポイント</b></pre>
+<p class="note">スプレッドがプラスなので、資本コスト以上に稼いでいることになる。</p>
+</div>
+</div>
+</div>
+
+<div class="q">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<p class="num" style="margin: 0; font-size: 48px; font-weight: 300; line-height: 1">Q4</p>
+<p class="eyebrow" style="font-size: 11px">Division P&amp;L</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 17px; line-height: 2">C事業部の売上高は600、変動費は360、管理可能個別固定費は80、管理不能個別固定費は40、共通固定費の配賦額は50である。(1) 限界利益、管理可能利益、営業利益、配賦後の利益を求めよ。(2) 事業部長の業績評価に使うべき利益はどれか、理由とともに答えよ。</p>
+<div><button class="btn" type="button" data-t="p4" aria-expanded="false"><span class="lb">答えを見る</span><span class="num sg" style="font-size: 16px; font-weight: 300">+</span></button></div>
+<div class="rv" data-a="p4" hidden>
+<pre class="code">限界利益      600 − 360 = <b>240</b>
+管理可能利益  240 −  80 = <b>160</b>
+営業利益      160 −  40 = <b>120</b>
+配賦後の利益  120 −  50 = <b>70</b></pre>
+<p style="margin: 0; font-size: 16px; line-height: 2">(2) 管理可能利益160を使う。管理不能個別固定費と共通固定費は事業部長が動かせない費用である。動かせない数字で評価すると、努力が結果に反映されず動機づけが損なわれる（管理可能性）。事業を続けるかの評価には営業利益120を使う。</p>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<a class="next" href="essay.html">
+<span class="eyebrow">Next — 04</span>
+<span class="mincho" style="font-size: 26px; font-weight: 700; display: inline-flex; align-items: center; gap: 16px">記述の予想問題<svg width="40" height="12" viewBox="0 0 40 12" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><path d="M0 6h38M33 1l5 5-5 5"></path></svg></span>
+</a>
+
+</div>
+</div>
+
+<script>
+(function () {
+  var L = ["答えを見る","答えを閉じる","すべての答えを開く","すべて閉じる"];
+  var btns = [].slice.call(document.querySelectorAll('[data-t]'));
+  var allBtn = document.getElementById('all');
+  function set(k, on) {
+    var p = document.querySelector('.rv[data-a="' + k + '"]');
+    var b = document.querySelector('[data-t="' + k + '"]');
+    p.hidden = !on;
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-expanded', on ? 'true' : 'false');
+    b.querySelector('.lb').textContent = on ? L[1] : L[0];
+    b.querySelector('.sg').textContent = on ? '\u2212' : '+';
+  }
+  function allOpen() { return btns.every(function (b) { return b.classList.contains('on'); }); }
+  function sync() { allBtn.querySelector('.lb').textContent = allOpen() ? L[3] : L[2]; }
+  btns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var k = b.getAttribute('data-t');
+      set(k, !b.classList.contains('on'));
+      sync();
+    });
+  });
+  allBtn.addEventListener('click', function () {
+    var next = !allOpen();
+    btns.forEach(function (b) { set(b.getAttribute('data-t'), next); });
+    sync();
+  });
+})();
+</script>
+</body>
+</html>
